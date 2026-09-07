@@ -1,21 +1,21 @@
 /**
  * Autonomous AI Integration Test Suite
  * Repository: webRtc
- * Source Branch: newTestcases
- * Target Test Branch: newTestcases-test-ai
+ * Source Branch: newTestcases-test-ai
+ * Target Test Branch: newTestcases-test-ai-test-ai
  */
 
 describe('webRtc - Integration Pipeline Verification', () => {
   const mockContext = {
     repo: 'webRtc',
-    branch: 'newTestcases',
+    branch: 'newTestcases-test-ai',
     timestamp: Date.now(),
     verified: true,
   };
 
   it('should verify contract integrity for repository pipeline', () => {
     expect(mockContext.repo).toBe('webRtc');
-    expect(mockContext.branch).toBe('newTestcases');
+    expect(mockContext.branch).toBe('newTestcases-test-ai');
     expect(mockContext.verified).toBe(true);
   });
 
