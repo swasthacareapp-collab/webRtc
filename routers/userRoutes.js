@@ -11,7 +11,7 @@ const {
 
 //test
 
-// GET all users
+// GET all users --wefewuf eiugfew
 router.get('/', getAllUsers);
 
 // GET user by ID
