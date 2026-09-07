@@ -8,13 +8,16 @@ const {
   deleteUser
 } = require('../controllers/userController');
 
-// GET all users
+
+//test
+
+// GET all users --wefewuf eiugfew
 router.get('/', getAllUsers);
 
-// GET user by ID
+// GET user by ID --wefewuf eiugfew
 router.get('/:id', getUserById);
 
-// POST create new user
+// POST create new user --wefewuf eiugfew
 router.post('/', createUser);
 
 // PUT update user
