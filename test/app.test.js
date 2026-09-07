@@ -17,7 +17,7 @@ describe('App Configuration and Middleware Tests', () => {
     test('should have CORS available', () => {
       const cors = require('cors');
       expect(cors).toBeDefined();
-      expect(typeof cors).toBe('function');
+      expect(typeof cors).toBe('');
     });
 
     test('should have body-parser available', () => {
