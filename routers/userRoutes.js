@@ -8,6 +8,9 @@ const {
   deleteUser
 } = require('../controllers/userController');
 
+
+//test
+
 // GET all users
 router.get('/', getAllUsers);
 
