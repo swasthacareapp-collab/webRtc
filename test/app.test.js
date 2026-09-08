@@ -17,7 +17,7 @@ describe('App Configuration and Middleware Tests', () => {
     test('should have CORS available', () => {
       const cors = require('cors');
       expect(cors).toBeDefined();
-      expect(typeof cors).toBe('');
+      expect(typeof cors).toBe('function');
     });
 
     test('should have body-parser available', () => {
@@ -35,7 +35,7 @@ describe('App Configuration and Middleware Tests', () => {
     });
 
     test('should have socket.io available', () => {
-      const socketIO = require('socket.io');
+      const socketIO = require('socket.io ');
       expect(socketIO).toBeDefined();
       expect(typeof socketIO).toBe('function');
     });
