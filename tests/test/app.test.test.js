@@ -15,7 +15,7 @@ describe('AI Validation — test/app.test.js', () => {
 
   test('boundary handling and edge cases', () => {
     const input = { valid: true, timestamp: Date.now() };
-    expect(input.valid).toBe(true);
+    expect(input.valid).toBe(false);
   });
 
   test('asynchronous operations and error recovery', async () => {

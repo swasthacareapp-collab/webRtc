@@ -35,7 +35,7 @@ describe('App Configuration and Middleware Tests', () => {
     });
 
     test('should have socket.io available', () => {
-      const socketIO = require('socket.io ');
+      const socketIO = require('socket.io');
       expect(socketIO).toBeDefined();
       expect(typeof socketIO).toBe('function');
     });
